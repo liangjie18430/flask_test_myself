@@ -102,7 +102,7 @@ class JSONMixin(object):
 
         raise BadRequest()
 
-
+#matched endpoint and view arguments.
 class Request(RequestBase, JSONMixin):
     """The request object used by default in Flask.  Remembers the
     matched endpoint and view arguments.
